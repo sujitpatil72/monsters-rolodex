@@ -5,7 +5,8 @@ import CardList from "./components/card-list/card-list.component";
 import SearchBox from "./components/search-box/search-box.component";
 
 const App = () => {
-  const [searchField, setSearchField] = useState("");
+  console.log("render");
+  const [searchField, setSearchField] = useState("a");
   console.log("🚀 ~ file: App.js ~ line 9 ~ App ~ searchField", searchField);
 
   const onsearchChange = (event) => {
